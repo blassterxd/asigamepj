@@ -1,5 +1,5 @@
 config = {
-    serverDiscoveryUri: 'https://vladimirkhil.com/api/si/servers',
+    serverDiscoveryUri: '/api/si/servers',
     rootUri: '/',
     ads: '<b></b>',
     rewriteUrl: true,
@@ -7,8 +7,8 @@ config = {
     registerServiceWorker: false,
     enableNoSleep: false,
     askForConsent: false,
-    siStatisticsServiceUri: 'https://vladimirkhil.com/sistatistics',
-    appRegistryServiceUri: 'https://vladimirkhil.com/appregistry',
+    siStatisticsServiceUri: '/sistatistics',
+    appRegistryServiceUri: '/appregistry',
     clearUrls: false
 };
 
